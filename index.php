@@ -8,14 +8,14 @@
 <body>
   <h1>PHP Badwords</h1>
 
-  <form action="result" method="GET">
+  <form action="result.php" method="GET">
     <label for="paragraph">Inserisci il Paragrafo</label> <br />
     <textarea name="paragraph" id="paragraph" cols="50" rows="4" required></textarea> <br /><br />
 
     <label for="badword">Parola da censurare</label> <br />
-    <input type="text" name="badword" id="badword" required> <br />
+    <input type="text" name="badword" id="badword" required /> <br />
     
-    <input type="submit" value="Invia">
+    <input type="submit" value="Invia" />
   </form>
   
 </body>
